@@ -23,25 +23,16 @@ The original dataset stored separate spending and utilization columns for each y
 
 DAX was used to calculate weighted average spending per claim, distinct drug products, and growth in average spending per dosage unit.
 
-## Dashboard Visualizations
+## Key Findings
 
-- Total Spending, Total Claims, Average Spend per Claim, and Drug Products Analyzed
-- Annual Medicare Part D Spending Trend
-- Top 15 Drugs by Total Spending
-- Top 10 Manufacturers by Total Spending
-- Claims versus Average Spending per Claim scatterplot
-- Top 10 Drugs by Growth in Average Spending per Unit
-- Detailed drug and manufacturer table
-- Filters for year, manufacturer, brand, generic name, and outlier status
-
-## Questions Explored
-
-- Which drugs account for the highest total spending?
-- Which manufacturers account for the most spending?
-- Is high spending associated with claim volume or high spending per claim?
-- How did total spending change between 2020 and 2024?
-- Which drugs experienced the greatest growth in average spending per dosage unit?
-- Which drug products may warrant additional cost review?
+- The analysis covers 3,625 drug products, 7.81 billion claims, and approximately $1.21 trillion in total spending, with a weighted average of $155.26 per claim.
+- Annual Medicare Part D spending increased from approximately $193 billion in 2020 to $289 billion in 2024—an increase of about 50%.
+- Eliquis, an anticoagulant used to reduce the risk of strokes and blood clots, had the highest total spending at approximately $77 billion.
+- Jardiance, used for type 2 diabetes and certain heart and kidney conditions, ranked second at $32 billion, followed by the type 2 diabetes medication Ozempic at $31 billion.
+- BMS Primarycare led manufacturers with approximately $83 billion in spending, followed by Novo Nordisk ($74 billion) and Boehringer Ingelheim ($66 billion).
+- High claim volume was generally associated with lower average spending per claim, while the highest-cost drugs tended to have substantially fewer claims.
+- Lagevrio, an antiviral authorized for certain high-risk adults with mild-to-moderate COVID-19, had the greatest increase in average spending per dosage unit from 2023 to 2024.
+- Jynneos, a vaccine for preventing smallpox and mpox, and Unasyn, an injectable antibiotic for bacterial infections, also showed substantial growth and may warrant further cost review.
 
 ## Data Source
 
